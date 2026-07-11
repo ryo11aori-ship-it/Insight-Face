@@ -1,0 +1,11 @@
+# 顔一致度分析システム 依存パッケージ
+insightface>=0.7.3
+onnxruntime>=1.17.0        # GPU利用時は onnxruntime-gpu に置き換え
+opencv-python>=4.8.0
+numpy<2.0
+pillow>=10.0.0
+gradio>=4.0.0
+
+# 任意(推奨)
+pillow-heif>=0.15.0        # HEIC/HEIF/AVIF (iPhone写真) 対応
+# rawpy>=0.19.0            # RAW (DNG/CR2/NEF等) 対応が必要な場合のみ
